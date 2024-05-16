@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("fonts/Helvetica.ttf") format("truetype");
+}
+
+* {
+    bzy-sizing: border-bzy;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    font-size: 35px;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1366px;
+    width: 100%;
+}
+
+.borderimg {
+    border: black 2px solid;
+}
+
+.text-article {
+    margin: 0 50px;
+    position: relative;
+}
+
+header {
+    background: black;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+header img {
+    width: 150px;
+    object-fit: contain;
+}
+
+header nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+header nav li a:hover{
+    color: #961111
+}
+
+.main-page, .gift-card {
+    margin-top: 70px;
+}
+
+.main-page .container, .gift-card .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-page img, .gift-card img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.main-page article, .gift-card article {
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.main-page p, .gift-card p{
+    max-width: 750px;
+    max-height: 400px;
+    margin-top: 20px;
+}
+
+.pre-foot {
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.pre-f-gift {
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.pre-foot img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.pre-foot article {
+    margin-top: 30px;
+}
+
+.pre-foot article p {
+    margin-top: 30px;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+footer p {
+    text-align: center;
+}
+
+.giftcard .container img {
+    border: none;
+}
+
+a.button {
+    background: black;
+    width: 100%;
+    color: white;
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.text-article a:hover {
+    background: #961111;
+}
+
+.gift-card img {
+    object-fit: contain;
+    max-width: 450px;
+}
+
+caption {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+table {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+table tr th {
+    padding: 20px
+}
+
+table, tr, th, td{
+    border: 2px solid black;
+
+}
+
+table th {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+table tr td {
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.menu .container{
+    width: 900px;
+}
+
+#contact .container {
+    width: 900px;
+}
+
+#contact section {
+    width: 900px;
+}
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact ul li {
+    margin-top: 10px;
+}
+
+#map {
+    margin-top: 20px;
+}
+
+#map h2 {
+    margin-bottom: 20px;
+}
